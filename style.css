@@ -26,8 +26,9 @@ html::-webkit-scrollbar-track{
     background-color: #777;
 }
 header{
-    z-index: 100;
+    position: fixed;
     width: 95%;
+    z-index: 100;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -103,4 +104,7 @@ a:hover{
 .CSS{
     margin-right: 1px;
     color: #777;
+}
+#moon img{
+    mix-blend-mode: screen;
 }

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <script src="../tracks.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What Coming Soon</title>
+</head>
+<body>
+    <script>
+        const boxes = document.querySelectorAll('.li')
+window.addEventListener('scroll', checkBoxes)
+checkBoxes()
+
+function checkBoxes() {
+    const triggerBottom = window.innerHeight / 5 * 4
+    boxes.forEach(box => {
+        const boxTop = box.getBoundingClientRect().top
+        if(boxTop < triggerBottom) {
+            box.classList.add('show')
+        } else{
+            box.classList.remove('show')
+        }
+    })
+        
+}       
+ 
+
+    </script>
+    <h1>This All Coming Soon To Add</h1>
+    <h1>Where This Best Web to learn coding</h1>
+    <h2>scroll</h2>
+    <div class="box">Python</div>
+    <div class="box">PHP</div>
+    <div class="box">Javascript</div>
+    <div class="box">kivvy</div>
+    <div class="box">C#</div>
+    <div class="box">JAVA</div>
+    <div class="box">ANDROID SUPPORTS</div>
+    <div class="box">QUAR</div>
+    <div class="box">KARVE</div>
+    <div class="box">SPACE</div>
+    <div class="box">Typescript</div>
+    <div class="box">ScreenE</div>
+    <a href="../index.html">To Back Click here</a>
+    <div class="box">Why Where To Learn any lang to Coding?</div>
+    <div class="box">ansower: Where This Best Web to learn any lang to coding</div>
+</body>
+</html>
+<div>
+    <div style="font-size: 20px;" class="sadsd">
+
+        YouTube <a href="https://www.youtube.com/channel/UC7R8IQ83PlQFeMjeSmXfFtA">Go</a>   
+
+        </div>
+    </div>
+</div>
